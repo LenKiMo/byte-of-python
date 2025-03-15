@@ -41,7 +41,8 @@ jobs:
       - name: Automatically Build & Publish HonKit
   # You may pin to the exact commit or the version.
   # uses: carry0987/honkit-publish-action@f291c8dc0e58926738ca3964b07e20f281f8537f
-        uses: carry0987/honkit-publish-action@v1.0.14  
+        uses: FriesI23/honkit-build-page@v2
+        # uses: carry0987/honkit-publish-action@v1.0.14  
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
